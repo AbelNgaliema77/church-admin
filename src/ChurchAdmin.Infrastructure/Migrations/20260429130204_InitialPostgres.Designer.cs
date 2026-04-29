@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ChurchAdmin.Infrastructure.Migrations
 {
     [DbContext(typeof(ChurchAdminDbContext))]
-    [Migration("20260429124548_InitialPostgres")]
+    [Migration("20260429130204_InitialPostgres")]
     partial class InitialPostgres
     {
         /// <inheritdoc />
