@@ -29,7 +29,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     CreatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: false),
                     UpdatedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     UpdatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
-                    RowVersion = table.Column<byte[]>(type: "bytea", rowVersion: true, nullable: false),
+                    RowVersion = table.Column<byte[]>(type: "bytea", nullable: false, defaultValueSql: "gen_random_uuid()::text::bytea"),
                     IsDeleted = table.Column<bool>(type: "boolean", nullable: false),
                     DeletedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     DeletedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true)
@@ -54,7 +54,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     CreatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: false),
                     UpdatedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     UpdatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
-                    RowVersion = table.Column<byte[]>(type: "bytea", rowVersion: true, nullable: false)
+                    RowVersion = table.Column<byte[]>(type: "bytea", nullable: false, defaultValueSql: "gen_random_uuid()::text::bytea")
                 },
                 constraints: table =>
                 {
@@ -80,7 +80,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     CreatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: false),
                     UpdatedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     UpdatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
-                    RowVersion = table.Column<byte[]>(type: "bytea", rowVersion: true, nullable: false),
+                    RowVersion = table.Column<byte[]>(type: "bytea", nullable: false, defaultValueSql: "gen_random_uuid()::text::bytea"),
                     IsDeleted = table.Column<bool>(type: "boolean", nullable: false),
                     DeletedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     DeletedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true)
@@ -108,7 +108,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     CreatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: false),
                     UpdatedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     UpdatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
-                    RowVersion = table.Column<byte[]>(type: "bytea", rowVersion: true, nullable: false),
+                    RowVersion = table.Column<byte[]>(type: "bytea", nullable: false, defaultValueSql: "gen_random_uuid()::text::bytea"),
                     IsDeleted = table.Column<bool>(type: "boolean", nullable: false),
                     DeletedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     DeletedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true)
@@ -138,7 +138,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     CreatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: false),
                     UpdatedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     UpdatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
-                    RowVersion = table.Column<byte[]>(type: "bytea", rowVersion: true, nullable: false),
+                    RowVersion = table.Column<byte[]>(type: "bytea", nullable: false, defaultValueSql: "gen_random_uuid()::text::bytea"),
                     IsDeleted = table.Column<bool>(type: "boolean", nullable: false),
                     DeletedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     DeletedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true)
@@ -165,7 +165,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     CreatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: false),
                     UpdatedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     UpdatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
-                    RowVersion = table.Column<byte[]>(type: "bytea", rowVersion: true, nullable: false),
+                    RowVersion = table.Column<byte[]>(type: "bytea", nullable: false, defaultValueSql: "gen_random_uuid()::text::bytea"),
                     IsDeleted = table.Column<bool>(type: "boolean", nullable: false),
                     DeletedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     DeletedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true)
@@ -191,7 +191,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     CreatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: false),
                     UpdatedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     UpdatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
-                    RowVersion = table.Column<byte[]>(type: "bytea", rowVersion: true, nullable: false),
+                    RowVersion = table.Column<byte[]>(type: "bytea", nullable: false, defaultValueSql: "gen_random_uuid()::text::bytea"),
                     IsDeleted = table.Column<bool>(type: "boolean", nullable: false),
                     DeletedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     DeletedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true)
@@ -221,7 +221,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     CreatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: false),
                     UpdatedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     UpdatedBy = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
-                    RowVersion = table.Column<byte[]>(type: "bytea", rowVersion: true, nullable: false)
+                    RowVersion = table.Column<byte[]>(type: "bytea", nullable: false, defaultValueSql: "gen_random_uuid()::text::bytea")
                 },
                 constraints: table =>
                 {
@@ -242,27 +242,27 @@ namespace ChurchAdmin.Infrastructure.Migrations
 
             migrationBuilder.InsertData(
                 table: "Teams",
-                columns: new[] { "Id", "CreatedAt", "CreatedBy", "DeletedAt", "DeletedBy", "Description", "IsActive", "IsDeleted", "Name", "UpdatedAt", "UpdatedBy" },
+                columns: new[] { "Id", "CreatedAt", "CreatedBy", "DeletedAt", "DeletedBy", "Description", "IsActive", "IsDeleted", "Name", "RowVersion", "UpdatedAt", "UpdatedBy" },
                 values: new object[,]
                 {
-                    { new Guid("10000000-0000-0000-0000-000000000001"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Music and praise team", true, false, "Worship", null, null },
-                    { new Guid("10000000-0000-0000-0000-000000000002"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Sound, camera and livestream", true, false, "Media", null, null },
-                    { new Guid("10000000-0000-0000-0000-000000000003"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Children ministry", true, false, "Children", null, null },
-                    { new Guid("10000000-0000-0000-0000-000000000004"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Welcoming and seating", true, false, "Ushering", null, null },
-                    { new Guid("10000000-0000-0000-0000-000000000005"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Finance and treasury", true, false, "Finance", null, null }
+                    { new Guid("10000000-0000-0000-0000-000000000001"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Music and praise team", true, false, "Worship", new byte[] { 1 }, null, null },
+                    { new Guid("10000000-0000-0000-0000-000000000002"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Sound, camera and livestream", true, false, "Media", new byte[] { 1 }, null, null },
+                    { new Guid("10000000-0000-0000-0000-000000000003"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Children ministry", true, false, "Children", new byte[] { 1 }, null, null },
+                    { new Guid("10000000-0000-0000-0000-000000000004"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Welcoming and seating", true, false, "Ushering", new byte[] { 1 }, null, null },
+                    { new Guid("10000000-0000-0000-0000-000000000005"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Finance and treasury", true, false, "Finance", new byte[] { 1 }, null, null }
                 });
 
             migrationBuilder.InsertData(
                 table: "Users",
-                columns: new[] { "Id", "CreatedAt", "CreatedBy", "DeletedAt", "DeletedBy", "DisplayName", "Email", "ExternalProvider", "ExternalProviderUserId", "InviteAcceptedAt", "InviteTokenExpiresAt", "InviteTokenHash", "IsActive", "IsDeleted", "LastLoginAt", "PasswordHash", "Role", "UpdatedAt", "UpdatedBy" },
-                values: new object[] { new Guid("20000000-0000-0000-0000-000000000001"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Church Admin", "admin@church.local", null, null, null, null, null, true, false, null, null, 3, null, null });
+                columns: new[] { "Id", "CreatedAt", "CreatedBy", "DeletedAt", "DeletedBy", "DisplayName", "Email", "ExternalProvider", "ExternalProviderUserId", "InviteAcceptedAt", "InviteTokenExpiresAt", "InviteTokenHash", "IsActive", "IsDeleted", "LastLoginAt", "PasswordHash", "Role", "RowVersion", "UpdatedAt", "UpdatedBy" },
+                values: new object[] { new Guid("20000000-0000-0000-0000-000000000001"), new DateTimeOffset(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)), "seed", null, null, "Church Admin", "admin@church.local", null, null, null, null, null, true, false, null, null, 3, new byte[] { 1 }, null, null });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AttendanceRecords_ServiceDate_ServiceType",
                 table: "AttendanceRecords",
                 columns: new[] { "ServiceDate", "ServiceType" },
                 unique: true,
-                filter: "[IsDeleted] = 0");
+                filter: "\"IsDeleted\" = false");
 
             migrationBuilder.CreateIndex(
                 name: "IX_FinanceEntries_CorrectionOfFinanceEntryId",
@@ -279,21 +279,21 @@ namespace ChurchAdmin.Infrastructure.Migrations
                 table: "Teams",
                 column: "Name",
                 unique: true,
-                filter: "[IsDeleted] = 0");
+                filter: "\"IsDeleted\" = false");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Users_Email",
                 table: "Users",
                 column: "Email",
                 unique: true,
-                filter: "[IsDeleted] = 0");
+                filter: "\"IsDeleted\" = false");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Workers_Email",
                 table: "Workers",
                 column: "Email",
                 unique: true,
-                filter: "[IsDeleted] = 0");
+                filter: "\"IsDeleted\" = false");
 
             migrationBuilder.CreateIndex(
                 name: "IX_WorkerTeams_TeamId",

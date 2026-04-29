@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ChurchAdmin.Infrastructure.Migrations
 {
     [DbContext(typeof(ChurchAdminDbContext))]
-    [Migration("20260429134517_InitialPostgres")]
+    [Migration("20260429135638_InitialPostgres")]
     partial class InitialPostgres
     {
         /// <inheritdoc />
@@ -62,8 +62,9 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     b.Property<byte[]>("RowVersion")
                         .IsConcurrencyToken()
                         .IsRequired()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("bytea");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bytea")
+                        .HasDefaultValueSql("gen_random_uuid()::text::bytea");
 
                     b.Property<DateOnly>("ServiceDate")
                         .HasColumnType("date");
@@ -88,7 +89,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
 
                     b.HasIndex("ServiceDate", "ServiceType")
                         .IsUnique()
-                        .HasFilter("[IsDeleted] = 0");
+                        .HasFilter("\"IsDeleted\" = false");
 
                     b.ToTable("AttendanceRecords");
                 });
@@ -131,8 +132,9 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     b.Property<byte[]>("RowVersion")
                         .IsConcurrencyToken()
                         .IsRequired()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("bytea");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bytea")
+                        .HasDefaultValueSql("gen_random_uuid()::text::bytea");
 
                     b.Property<DateTimeOffset?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
@@ -193,8 +195,9 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     b.Property<byte[]>("RowVersion")
                         .IsConcurrencyToken()
                         .IsRequired()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("bytea");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bytea")
+                        .HasDefaultValueSql("gen_random_uuid()::text::bytea");
 
                     b.Property<DateOnly>("ServiceDate")
                         .HasColumnType("date");
@@ -270,8 +273,9 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     b.Property<byte[]>("RowVersion")
                         .IsConcurrencyToken()
                         .IsRequired()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("bytea");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bytea")
+                        .HasDefaultValueSql("gen_random_uuid()::text::bytea");
 
                     b.Property<int>("Status")
                         .HasColumnType("integer");
@@ -332,8 +336,9 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     b.Property<byte[]>("RowVersion")
                         .IsConcurrencyToken()
                         .IsRequired()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("bytea");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bytea")
+                        .HasDefaultValueSql("gen_random_uuid()::text::bytea");
 
                     b.Property<DateTimeOffset?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
@@ -346,7 +351,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
 
                     b.HasIndex("Name")
                         .IsUnique()
-                        .HasFilter("[IsDeleted] = 0");
+                        .HasFilter("\"IsDeleted\" = false");
 
                     b.ToTable("Teams");
 
@@ -360,7 +365,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                             IsActive = true,
                             IsDeleted = false,
                             Name = "Worship",
-                            RowVersion = new byte[0]
+                            RowVersion = new byte[] { 1 }
                         },
                         new
                         {
@@ -371,7 +376,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                             IsActive = true,
                             IsDeleted = false,
                             Name = "Media",
-                            RowVersion = new byte[0]
+                            RowVersion = new byte[] { 1 }
                         },
                         new
                         {
@@ -382,7 +387,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                             IsActive = true,
                             IsDeleted = false,
                             Name = "Children",
-                            RowVersion = new byte[0]
+                            RowVersion = new byte[] { 1 }
                         },
                         new
                         {
@@ -393,7 +398,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                             IsActive = true,
                             IsDeleted = false,
                             Name = "Ushering",
-                            RowVersion = new byte[0]
+                            RowVersion = new byte[] { 1 }
                         },
                         new
                         {
@@ -404,7 +409,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                             IsActive = true,
                             IsDeleted = false,
                             Name = "Finance",
-                            RowVersion = new byte[0]
+                            RowVersion = new byte[] { 1 }
                         });
                 });
 
@@ -474,8 +479,9 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     b.Property<byte[]>("RowVersion")
                         .IsConcurrencyToken()
                         .IsRequired()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("bytea");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bytea")
+                        .HasDefaultValueSql("gen_random_uuid()::text::bytea");
 
                     b.Property<DateTimeOffset?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
@@ -488,7 +494,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
 
                     b.HasIndex("Email")
                         .IsUnique()
-                        .HasFilter("[IsDeleted] = 0");
+                        .HasFilter("\"IsDeleted\" = false");
 
                     b.ToTable("Users");
 
@@ -503,7 +509,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
                             IsActive = true,
                             IsDeleted = false,
                             Role = 3,
-                            RowVersion = new byte[0]
+                            RowVersion = new byte[] { 1 }
                         });
                 });
 
@@ -560,8 +566,9 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     b.Property<byte[]>("RowVersion")
                         .IsConcurrencyToken()
                         .IsRequired()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("bytea");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bytea")
+                        .HasDefaultValueSql("gen_random_uuid()::text::bytea");
 
                     b.Property<DateOnly>("StartedServing")
                         .HasColumnType("date");
@@ -580,7 +587,7 @@ namespace ChurchAdmin.Infrastructure.Migrations
 
                     b.HasIndex("Email")
                         .IsUnique()
-                        .HasFilter("[IsDeleted] = 0");
+                        .HasFilter("\"IsDeleted\" = false");
 
                     b.ToTable("Workers");
                 });
@@ -608,8 +615,9 @@ namespace ChurchAdmin.Infrastructure.Migrations
                     b.Property<byte[]>("RowVersion")
                         .IsConcurrencyToken()
                         .IsRequired()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("bytea");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bytea")
+                        .HasDefaultValueSql("gen_random_uuid()::text::bytea");
 
                     b.Property<DateOnly>("StartDate")
                         .HasColumnType("date");

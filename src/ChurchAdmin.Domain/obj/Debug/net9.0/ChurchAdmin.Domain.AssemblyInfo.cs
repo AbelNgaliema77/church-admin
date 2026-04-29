@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChurchAdmin.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+013cf6ad04286ff30ac5d04edadfb3e5b6e36dbf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fb09b8fb41b2e93ef18aca2f18bb92936f513ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChurchAdmin.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChurchAdmin.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

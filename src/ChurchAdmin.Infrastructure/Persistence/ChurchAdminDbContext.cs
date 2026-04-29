@@ -19,19 +19,12 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
     }
 
     public DbSet<User> Users => Set<User>();
-
     public DbSet<Team> Teams => Set<Team>();
-
     public DbSet<Worker> Workers => Set<Worker>();
-
     public DbSet<WorkerTeam> WorkerTeams => Set<WorkerTeam>();
-
     public DbSet<AttendanceRecord> AttendanceRecords => Set<AttendanceRecord>();
-
     public DbSet<FinanceEntry> FinanceEntries => Set<FinanceEntry>();
-
     public DbSet<InventoryItem> InventoryItems => Set<InventoryItem>();
-
     public DbSet<AuditLog> AuditLogs => Set<AuditLog>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -42,21 +35,12 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
         {
             entity.HasIndex(x => x.Email)
                 .IsUnique()
-                .HasFilter("[IsDeleted] = 0");
+                .HasFilter("\"IsDeleted\" = false");
 
-            entity.Property(x => x.Email)
-                .HasMaxLength(256)
-                .IsRequired();
-
-            entity.Property(x => x.DisplayName)
-                .HasMaxLength(200)
-                .IsRequired();
-
-            entity.Property(x => x.ExternalProvider)
-                .HasMaxLength(50);
-
-            entity.Property(x => x.ExternalProviderUserId)
-                .HasMaxLength(256);
+            entity.Property(x => x.Email).HasMaxLength(256).IsRequired();
+            entity.Property(x => x.DisplayName).HasMaxLength(200).IsRequired();
+            entity.Property(x => x.ExternalProvider).HasMaxLength(50);
+            entity.Property(x => x.ExternalProviderUserId).HasMaxLength(256);
 
             entity.HasQueryFilter(x => !x.IsDeleted);
         });
@@ -65,14 +49,10 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
         {
             entity.HasIndex(x => x.Name)
                 .IsUnique()
-                .HasFilter("[IsDeleted] = 0");
+                .HasFilter("\"IsDeleted\" = false");
 
-            entity.Property(x => x.Name)
-                .HasMaxLength(120)
-                .IsRequired();
-
-            entity.Property(x => x.Description)
-                .HasMaxLength(500);
+            entity.Property(x => x.Name).HasMaxLength(120).IsRequired();
+            entity.Property(x => x.Description).HasMaxLength(500);
 
             entity.HasQueryFilter(x => !x.IsDeleted);
         });
@@ -81,23 +61,12 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
         {
             entity.HasIndex(x => x.Email)
                 .IsUnique()
-                .HasFilter("[IsDeleted] = 0");
+                .HasFilter("\"IsDeleted\" = false");
 
-            entity.Property(x => x.FullName)
-                .HasMaxLength(200)
-                .IsRequired();
-
-            entity.Property(x => x.Email)
-                .HasMaxLength(256)
-                .IsRequired();
-
-            entity.Property(x => x.Phone)
-                .HasMaxLength(50)
-                .IsRequired();
-
-            entity.Property(x => x.Address)
-                .HasMaxLength(500)
-                .IsRequired();
+            entity.Property(x => x.FullName).HasMaxLength(200).IsRequired();
+            entity.Property(x => x.Email).HasMaxLength(256).IsRequired();
+            entity.Property(x => x.Phone).HasMaxLength(50).IsRequired();
+            entity.Property(x => x.Address).HasMaxLength(500).IsRequired();
 
             entity.HasQueryFilter(x => !x.IsDeleted);
         });
@@ -121,24 +90,18 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
         {
             entity.HasIndex(x => new { x.ServiceDate, x.ServiceType })
                 .IsUnique()
-                .HasFilter("[IsDeleted] = 0");
+                .HasFilter("\"IsDeleted\" = false");
 
-            entity.Property(x => x.Notes)
-                .HasMaxLength(1000);
+            entity.Property(x => x.Notes).HasMaxLength(1000);
 
             entity.HasQueryFilter(x => !x.IsDeleted);
         });
 
         modelBuilder.Entity<FinanceEntry>(entity =>
         {
-            entity.Property(x => x.Amount)
-                .HasPrecision(18, 2);
-
-            entity.Property(x => x.Notes)
-                .HasMaxLength(1000);
-
-            entity.Property(x => x.VerifiedBy)
-                .HasMaxLength(256);
+            entity.Property(x => x.Amount).HasPrecision(18, 2);
+            entity.Property(x => x.Notes).HasMaxLength(1000);
+            entity.Property(x => x.VerifiedBy).HasMaxLength(256);
 
             entity.HasOne(x => x.CorrectionOfFinanceEntry)
                 .WithMany()
@@ -150,16 +113,9 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
 
         modelBuilder.Entity<InventoryItem>(entity =>
         {
-            entity.Property(x => x.Name)
-                .HasMaxLength(160)
-                .IsRequired();
-
-            entity.Property(x => x.Description)
-                .HasMaxLength(1000)
-                .IsRequired();
-
-            entity.Property(x => x.ImageUrl)
-                .HasMaxLength(1000);
+            entity.Property(x => x.Name).HasMaxLength(160).IsRequired();
+            entity.Property(x => x.Description).HasMaxLength(1000).IsRequired();
+            entity.Property(x => x.ImageUrl).HasMaxLength(1000);
 
             entity.HasOne(x => x.Team)
                 .WithMany()
@@ -171,18 +127,10 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
 
         modelBuilder.Entity<AuditLog>(entity =>
         {
-            entity.Property(x => x.EntityName)
-                .HasMaxLength(160)
-                .IsRequired();
-
-            entity.Property(x => x.BeforeJson)
-                .HasColumnType("text");
-
-            entity.Property(x => x.AfterJson)
-                .HasColumnType("text");
-
-            entity.Property(x => x.Reason)
-                .HasMaxLength(1000);
+            entity.Property(x => x.EntityName).HasMaxLength(160).IsRequired();
+            entity.Property(x => x.BeforeJson).HasColumnType("text");
+            entity.Property(x => x.AfterJson).HasColumnType("text");
+            entity.Property(x => x.Reason).HasMaxLength(1000);
         });
 
         SeedData(modelBuilder);
@@ -227,7 +175,9 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
             {
                 modelBuilder.Entity(entityType.ClrType)
                     .Property(nameof(AuditableEntity.RowVersion))
-                    .IsRowVersion();
+                    .IsConcurrencyToken()
+                    .HasColumnType("bytea")
+                    .HasDefaultValueSql("gen_random_uuid()::text::bytea");
 
                 modelBuilder.Entity(entityType.ClrType)
                     .Property(nameof(AuditableEntity.CreatedBy))
@@ -257,6 +207,8 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
 
         Guid adminUserId = Guid.Parse("20000000-0000-0000-0000-000000000001");
 
+        byte[] seedRowVersion = [1];
+
         modelBuilder.Entity<Team>().HasData(
             new Team
             {
@@ -265,7 +217,9 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
                 Description = "Music and praise team",
                 IsActive = true,
                 CreatedAt = DateTimeOffset.UnixEpoch,
-                CreatedBy = "seed"
+                CreatedBy = "seed",
+                IsDeleted = false,
+                RowVersion = seedRowVersion
             },
             new Team
             {
@@ -274,7 +228,9 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
                 Description = "Sound, camera and livestream",
                 IsActive = true,
                 CreatedAt = DateTimeOffset.UnixEpoch,
-                CreatedBy = "seed"
+                CreatedBy = "seed",
+                IsDeleted = false,
+                RowVersion = seedRowVersion
             },
             new Team
             {
@@ -283,7 +239,9 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
                 Description = "Children ministry",
                 IsActive = true,
                 CreatedAt = DateTimeOffset.UnixEpoch,
-                CreatedBy = "seed"
+                CreatedBy = "seed",
+                IsDeleted = false,
+                RowVersion = seedRowVersion
             },
             new Team
             {
@@ -292,7 +250,9 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
                 Description = "Welcoming and seating",
                 IsActive = true,
                 CreatedAt = DateTimeOffset.UnixEpoch,
-                CreatedBy = "seed"
+                CreatedBy = "seed",
+                IsDeleted = false,
+                RowVersion = seedRowVersion
             },
             new Team
             {
@@ -301,7 +261,9 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
                 Description = "Finance and treasury",
                 IsActive = true,
                 CreatedAt = DateTimeOffset.UnixEpoch,
-                CreatedBy = "seed"
+                CreatedBy = "seed",
+                IsDeleted = false,
+                RowVersion = seedRowVersion
             }
         );
 
@@ -314,7 +276,9 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
                 Role = UserRole.Admin,
                 IsActive = true,
                 CreatedAt = DateTimeOffset.UnixEpoch,
-                CreatedBy = "seed"
+                CreatedBy = "seed",
+                IsDeleted = false,
+                RowVersion = seedRowVersion
             }
         );
     }
