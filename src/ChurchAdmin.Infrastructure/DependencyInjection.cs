@@ -17,7 +17,7 @@ public static class DependencyInjection
             ?? throw new InvalidOperationException("Connection string 'DefaultConnection' was not found.");
 
         services.AddDbContext<ChurchAdminDbContext>(options =>
-            options.UseSqlServer(connectionString));
+     options.UseNpgsql(connectionString));
 
         services.AddScoped<IChurchAdminDbContext>(provider =>
             provider.GetRequiredService<ChurchAdminDbContext>());

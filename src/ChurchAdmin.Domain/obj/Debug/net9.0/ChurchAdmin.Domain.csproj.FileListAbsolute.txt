@@ -9,3 +9,4 @@ C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Domain\obj\Debug\net9.0\refint\ChurchAdmin.Domain.dll
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Domain\obj\Debug\net9.0\ChurchAdmin.Domain.pdb
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Domain\obj\Debug\net9.0\ref\ChurchAdmin.Domain.dll
+C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Domain\obj\Debug\net9.0\ChurchAdmin.Domain.sourcelink.json

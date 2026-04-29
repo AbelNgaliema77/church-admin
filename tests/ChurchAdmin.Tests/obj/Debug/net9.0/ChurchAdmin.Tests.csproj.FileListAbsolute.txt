@@ -99,3 +99,4 @@ C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\tests\ChurchAdm
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\tests\ChurchAdmin.Tests\obj\Debug\net9.0\ChurchAdmin.Tests.pdb
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\tests\ChurchAdmin.Tests\obj\Debug\net9.0\ChurchAdmin.Tests.genruntimeconfig.cache
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\tests\ChurchAdmin.Tests\obj\Debug\net9.0\ref\ChurchAdmin.Tests.dll
+C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\tests\ChurchAdmin.Tests\obj\Debug\net9.0\ChurchAdmin.Tests.sourcelink.json

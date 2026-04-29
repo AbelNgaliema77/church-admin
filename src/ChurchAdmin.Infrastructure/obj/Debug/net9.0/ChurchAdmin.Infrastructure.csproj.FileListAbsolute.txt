@@ -17,3 +17,4 @@ C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Infrastructure\obj\Debug\net9.0\ChurchAdmin.Infrastructure.pdb
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Infrastructure\obj\Debug\net9.0\ChurchAdmin.Infrastructure.genruntimeconfig.cache
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Infrastructure\obj\Debug\net9.0\ref\ChurchAdmin.Infrastructure.dll
+C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Infrastructure\obj\Debug\net9.0\ChurchAdmin.Infrastructure.sourcelink.json

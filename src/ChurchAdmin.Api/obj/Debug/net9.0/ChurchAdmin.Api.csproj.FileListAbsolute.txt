@@ -166,7 +166,6 @@ C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\obj\Debug\net9.0\ChurchAd.B3023227.Up2Date
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\obj\Debug\net9.0\ChurchAdmin.Api.dll
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\obj\Debug\net9.0\refint\ChurchAdmin.Api.dll
@@ -180,3 +179,6 @@ C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\bin\Debug\net9.0\System.Management.dll
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\bin\Debug\net9.0\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\obj\Debug\net9.0\ChurchAdmin.Api.sourcelink.json
+C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\bin\Debug\net9.0\Npgsql.dll
+C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

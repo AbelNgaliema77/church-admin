@@ -13,3 +13,4 @@ C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Application\obj\Debug\net9.0\refint\ChurchAdmin.Application.dll
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Application\obj\Debug\net9.0\ChurchAdmin.Application.pdb
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Application\obj\Debug\net9.0\ref\ChurchAdmin.Application.dll
+C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Application\obj\Debug\net9.0\ChurchAdmin.Application.sourcelink.json
