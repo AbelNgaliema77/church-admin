@@ -176,10 +176,10 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
                 .IsRequired();
 
             entity.Property(x => x.BeforeJson)
-                .HasColumnType("nvarchar(max)");
+                .HasColumnType("text");
 
             entity.Property(x => x.AfterJson)
-                .HasColumnType("nvarchar(max)");
+                .HasColumnType("text");
 
             entity.Property(x => x.Reason)
                 .HasMaxLength(1000);

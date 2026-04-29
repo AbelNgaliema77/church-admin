@@ -182,3 +182,4 @@ C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\obj\Debug\net9.0\ChurchAdmin.Api.sourcelink.json
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\bin\Debug\net9.0\Npgsql.dll
 C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\abel.ngaliema\source\repos\church-admin-backend-starter\src\ChurchAdmin.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

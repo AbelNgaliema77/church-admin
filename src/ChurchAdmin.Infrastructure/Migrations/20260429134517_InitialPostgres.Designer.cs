@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ChurchAdmin.Infrastructure.Migrations
 {
     [DbContext(typeof(ChurchAdminDbContext))]
-    [Migration("20260429130204_InitialPostgres")]
+    [Migration("20260429134517_InitialPostgres")]
     partial class InitialPostgres
     {
         /// <inheritdoc />
@@ -103,10 +103,10 @@ namespace ChurchAdmin.Infrastructure.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("AfterJson")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("text");
 
                     b.Property<string>("BeforeJson")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("text");
 
                     b.Property<DateTimeOffset>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
