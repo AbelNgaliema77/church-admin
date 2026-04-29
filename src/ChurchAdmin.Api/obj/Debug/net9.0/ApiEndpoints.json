@@ -1,0 +1,1322 @@
+[
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Attendance.AttendanceController",
+    "Method": "GetAll",
+    "RelativePath": "api/attendance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "serviceType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChurchAdmin.Api.Controllers.Attendance.AttendanceResponse, ChurchAdmin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Attendance.AttendanceController",
+    "Method": "Create",
+    "RelativePath": "api/attendance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Attendance.CreateAttendanceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Attendance.AttendanceResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Attendance.AttendanceController",
+    "Method": "GetById",
+    "RelativePath": "api/attendance/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Attendance.AttendanceResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Attendance.AttendanceController",
+    "Method": "Update",
+    "RelativePath": "api/attendance/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Attendance.UpdateAttendanceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Attendance.AttendanceController",
+    "Method": "Delete",
+    "RelativePath": "api/attendance/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Attendance.AttendanceController",
+    "Method": "GetSummary",
+    "RelativePath": "api/attendance/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "serviceType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Attendance.AttendanceSummaryResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.AuditLogs.AuditLogsController",
+    "Method": "GetAll",
+    "RelativePath": "api/audit-logs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "entityId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChurchAdmin.Api.Controllers.AuditLogs.AuditLogResponse, ChurchAdmin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.AuditLogs.AuditLogsController",
+    "Method": "GetById",
+    "RelativePath": "api/audit-logs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.AuditLogs.AuditLogResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Auth.AuthController",
+    "Method": "DevLogin",
+    "RelativePath": "api/auth/dev-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Auth.DevLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Auth.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Auth.AuthController",
+    "Method": "GoogleLogin",
+    "RelativePath": "api/auth/google",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Auth.GoogleLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Auth.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Auth.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Auth.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Auth.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Auth.AuthController",
+    "Method": "SetPassword",
+    "RelativePath": "api/auth/set-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Auth.SetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Auth.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Dashboard.DashboardController",
+    "Method": "GetSummary",
+    "RelativePath": "api/dashboard/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Dashboard.DashboardSummaryResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Finance.FinanceController",
+    "Method": "GetAll",
+    "RelativePath": "api/finance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "serviceType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "verified",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChurchAdmin.Api.Controllers.Finance.FinanceEntryResponse, ChurchAdmin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Finance.FinanceController",
+    "Method": "Create",
+    "RelativePath": "api/finance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Finance.CreateFinanceEntryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Finance.FinanceEntryResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Finance.FinanceController",
+    "Method": "GetById",
+    "RelativePath": "api/finance/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Finance.FinanceEntryResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Finance.FinanceController",
+    "Method": "Update",
+    "RelativePath": "api/finance/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Finance.UpdateFinanceEntryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Finance.FinanceController",
+    "Method": "Delete",
+    "RelativePath": "api/finance/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Finance.FinanceController",
+    "Method": "CreateCorrection",
+    "RelativePath": "api/finance/{id}/corrections",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Finance.CreateFinanceCorrectionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Finance.FinanceEntryResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Finance.FinanceController",
+    "Method": "Verify",
+    "RelativePath": "api/finance/{id}/verify",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Finance.FinanceController",
+    "Method": "GetSummary",
+    "RelativePath": "api/finance/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "serviceType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Finance.FinanceSummaryResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.HealthController",
+    "Method": "Get",
+    "RelativePath": "api/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Inventory.InventoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/inventory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "condition",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChurchAdmin.Api.Controllers.Inventory.InventoryItemResponse, ChurchAdmin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Inventory.InventoryController",
+    "Method": "Create",
+    "RelativePath": "api/inventory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Inventory.CreateInventoryItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Inventory.InventoryItemResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Inventory.InventoryController",
+    "Method": "GetById",
+    "RelativePath": "api/inventory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Inventory.InventoryItemResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Inventory.InventoryController",
+    "Method": "Update",
+    "RelativePath": "api/inventory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Inventory.UpdateInventoryItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Inventory.InventoryController",
+    "Method": "Delete",
+    "RelativePath": "api/inventory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Inventory.InventoryController",
+    "Method": "Approve",
+    "RelativePath": "api/inventory/{id}/approve",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Inventory.InventoryController",
+    "Method": "MarkLost",
+    "RelativePath": "api/inventory/{id}/mark-lost",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Inventory.InventoryController",
+    "Method": "Retire",
+    "RelativePath": "api/inventory/{id}/retire",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Reports.ReportsController",
+    "Method": "GetAttendanceByServiceType",
+    "RelativePath": "api/reports/attendance-by-service-type",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChurchAdmin.Api.Controllers.Reports.AttendanceServiceTypeSummaryResponse, ChurchAdmin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Reports.ReportsController",
+    "Method": "GetAttendanceTrends",
+    "RelativePath": "api/reports/attendance-trends",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "serviceType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChurchAdmin.Api.Controllers.Reports.AttendanceTrendResponse, ChurchAdmin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Reports.ReportsController",
+    "Method": "GetFinanceByCategory",
+    "RelativePath": "api/reports/finance-by-category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "serviceType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChurchAdmin.Api.Controllers.Reports.FinanceCategorySummaryResponse, ChurchAdmin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Reports.ReportsController",
+    "Method": "GetFinanceTrends",
+    "RelativePath": "api/reports/finance-trends",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "serviceType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChurchAdmin.Api.Controllers.Reports.FinanceTrendResponse, ChurchAdmin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Teams.TeamsController",
+    "Method": "GetAll",
+    "RelativePath": "api/teams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChurchAdmin.Api.Controllers.Teams.TeamResponse, ChurchAdmin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Teams.TeamsController",
+    "Method": "Create",
+    "RelativePath": "api/teams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Teams.CreateTeamRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Teams.TeamResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Teams.TeamsController",
+    "Method": "GetById",
+    "RelativePath": "api/teams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Teams.TeamResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Teams.TeamsController",
+    "Method": "Update",
+    "RelativePath": "api/teams/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Teams.UpdateTeamRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Teams.TeamsController",
+    "Method": "Delete",
+    "RelativePath": "api/teams/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Teams.TeamsController",
+    "Method": "Deactivate",
+    "RelativePath": "api/teams/{id}/deactivate",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Users.UsersController",
+    "Method": "GetAll",
+    "RelativePath": "api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChurchAdmin.Api.Controllers.Users.UserResponse, ChurchAdmin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Users.UsersController",
+    "Method": "Create",
+    "RelativePath": "api/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Users.CreateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Users.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Users.UsersController",
+    "Method": "GetById",
+    "RelativePath": "api/users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Users.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Users.UsersController",
+    "Method": "Update",
+    "RelativePath": "api/users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Users.UpdateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Users.UsersController",
+    "Method": "Activate",
+    "RelativePath": "api/users/{id}/activate",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Users.UsersController",
+    "Method": "Deactivate",
+    "RelativePath": "api/users/{id}/deactivate",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Users.UsersController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/users/{id}/role",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Users.UpdateUserRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Workers.WorkersController",
+    "Method": "GetAll",
+    "RelativePath": "api/workers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChurchAdmin.Api.Controllers.Workers.WorkerResponse, ChurchAdmin.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Workers.WorkersController",
+    "Method": "Create",
+    "RelativePath": "api/workers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Workers.CreateWorkerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Workers.WorkerResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Workers.WorkersController",
+    "Method": "GetById",
+    "RelativePath": "api/workers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChurchAdmin.Api.Controllers.Workers.WorkerResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Workers.WorkersController",
+    "Method": "Update",
+    "RelativePath": "api/workers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Workers.UpdateWorkerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Workers.WorkersController",
+    "Method": "Delete",
+    "RelativePath": "api/workers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Workers.WorkersController",
+    "Method": "Deactivate",
+    "RelativePath": "api/workers/{id}/deactivate",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Workers.WorkersController",
+    "Method": "AssignToTeam",
+    "RelativePath": "api/workers/{id}/teams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ChurchAdmin.Api.Controllers.Workers.AssignWorkerTeamRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChurchAdmin.Api.Controllers.Workers.WorkersController",
+    "Method": "RemoveFromTeam",
+    "RelativePath": "api/workers/{id}/teams/{teamId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "teamId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
