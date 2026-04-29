@@ -59,10 +59,11 @@ builder.Services.AddCors(options =>
     {
         policy
             .WithOrigins(
-                "http://localhost:5173",
-                "https://localhost:5173",
-                "http://localhost:4173",
-                "https://localhost:4173")
+            "http://localhost:5173",
+            "https://localhost:5173",
+            "http://localhost:4173",
+            "https://localhost:4173",
+            "https://church-admin-frontend.onrender.com")
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
