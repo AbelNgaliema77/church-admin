@@ -69,47 +69,47 @@ namespace ChurchAdmin.Infrastructure.Migrations
                 nullable: false,
                 defaultValue: new Guid("00000000-0000-0000-0000-000000000000"));
 
-            migrationBuilder.UpdateData(
-                table: "Teams",
-                keyColumn: "Id",
-                keyValue: new Guid("10000000-0000-0000-0000-000000000001"),
-                column: "ChurchId",
-                value: new Guid("30000000-0000-0000-0000-000000000001"));
+            migrationBuilder.Sql("""
+INSERT INTO "Churches" ("Id", "Name", "CreatedAt", "IsDeleted")
+VALUES ('30000000-0000-0000-0000-000000000001', 'La Borne Church', NOW(), false)
+ON CONFLICT ("Id") DO NOTHING;
+""");
 
-            migrationBuilder.UpdateData(
-                table: "Teams",
-                keyColumn: "Id",
-                keyValue: new Guid("10000000-0000-0000-0000-000000000002"),
-                column: "ChurchId",
-                value: new Guid("30000000-0000-0000-0000-000000000001"));
+            migrationBuilder.Sql("""
+UPDATE "Teams"
+SET "ChurchId" = '30000000-0000-0000-0000-000000000001'
+WHERE "ChurchId" = '00000000-0000-0000-0000-000000000000';
+""");
 
-            migrationBuilder.UpdateData(
-                table: "Teams",
-                keyColumn: "Id",
-                keyValue: new Guid("10000000-0000-0000-0000-000000000003"),
-                column: "ChurchId",
-                value: new Guid("30000000-0000-0000-0000-000000000001"));
+            migrationBuilder.Sql("""
+UPDATE "Users"
+SET "ChurchId" = '30000000-0000-0000-0000-000000000001'
+WHERE "ChurchId" = '00000000-0000-0000-0000-000000000000';
+""");
 
-            migrationBuilder.UpdateData(
-                table: "Teams",
-                keyColumn: "Id",
-                keyValue: new Guid("10000000-0000-0000-0000-000000000004"),
-                column: "ChurchId",
-                value: new Guid("30000000-0000-0000-0000-000000000001"));
+            migrationBuilder.Sql("""
+UPDATE "Workers"
+SET "ChurchId" = '30000000-0000-0000-0000-000000000001'
+WHERE "ChurchId" = '00000000-0000-0000-0000-000000000000';
+""");
 
-            migrationBuilder.UpdateData(
-                table: "Teams",
-                keyColumn: "Id",
-                keyValue: new Guid("10000000-0000-0000-0000-000000000005"),
-                column: "ChurchId",
-                value: new Guid("30000000-0000-0000-0000-000000000001"));
+            migrationBuilder.Sql("""
+UPDATE "AttendanceRecords"
+SET "ChurchId" = '30000000-0000-0000-0000-000000000001'
+WHERE "ChurchId" = '00000000-0000-0000-0000-000000000000';
+""");
 
-            migrationBuilder.UpdateData(
-                table: "Users",
-                keyColumn: "Id",
-                keyValue: new Guid("20000000-0000-0000-0000-000000000001"),
-                column: "ChurchId",
-                value: new Guid("30000000-0000-0000-0000-000000000001"));
+            migrationBuilder.Sql("""
+UPDATE "FinanceEntries"
+SET "ChurchId" = '30000000-0000-0000-0000-000000000001'
+WHERE "ChurchId" = '00000000-0000-0000-0000-000000000000';
+""");
+
+            migrationBuilder.Sql("""
+UPDATE "InventoryItems"
+SET "ChurchId" = '30000000-0000-0000-0000-000000000001'
+WHERE "ChurchId" = '00000000-0000-0000-0000-000000000000';
+""");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Workers_ChurchId_Email",
