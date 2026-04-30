@@ -23,4 +23,8 @@
     <ProjectReference Include="..\ChurchAdmin.Application\ChurchAdmin.Application.csproj" />
     <ProjectReference Include="..\ChurchAdmin.Infrastructure\ChurchAdmin.Infrastructure.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Interfaces\" />
+  </ItemGroup>
 </Project>
