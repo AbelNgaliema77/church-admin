@@ -1,0 +1,1317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260430075115_AddChurchTenantSupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ChurchAdmin.Infrastructure\\Migrations\\20260430075115_AddChurchTenantSupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\common\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\common\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.infrastructure\\persistence\\churchadmindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|solutionrelative:src\\churchadmin.infrastructure\\persistence\\churchadmindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.domain\\entities\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|solutionrelative:src\\churchadmin.domain\\entities\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.domain\\entities\\financeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|solutionrelative:src\\churchadmin.domain\\entities\\financeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.domain\\entities\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|solutionrelative:src\\churchadmin.domain\\entities\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.domain\\entities\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|solutionrelative:src\\churchadmin.domain\\entities\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.domain\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|solutionrelative:src\\churchadmin.domain\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|solutionrelative:src\\churchadmin.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\churches\\churchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\churches\\churchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\ChurchAdmin.Application\\ChurchAdmin.Application.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.application\\common\\interfaces\\ichurchadmindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\ChurchAdmin.Application\\ChurchAdmin.Application.csproj|solutionrelative:src\\churchadmin.application\\common\\interfaces\\ichurchadmindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.domain\\entities\\church.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|solutionrelative:src\\churchadmin.domain\\entities\\church.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260429134517_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ChurchAdmin.Infrastructure\\Migrations\\20260429134517_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260429124548_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ChurchAdmin.Infrastructure\\Migrations\\20260429124548_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.infrastructure\\churchadmin.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|solutionrelative:src\\churchadmin.infrastructure\\churchadmin.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|solutionrelative:src\\churchadmin.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\common\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\common\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\common\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\common\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\users\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\users\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\auth\\setpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\auth\\setpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\common\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\common\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\users\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\users\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\users\\updateuserrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\users\\updateuserrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\users\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\users\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|solutionrelative:src\\churchadmin.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\ChurchAdmin.Application\\ChurchAdmin.Application.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.application\\common\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\ChurchAdmin.Application\\ChurchAdmin.Application.csproj|solutionrelative:src\\churchadmin.application\\common\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\ChurchAdmin.Application\\ChurchAdmin.Application.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.application\\common\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\ChurchAdmin.Application\\ChurchAdmin.Application.csproj|solutionrelative:src\\churchadmin.application\\common\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\finance\\financecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\finance\\financecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\inventory\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\inventory\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\teams\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\teams\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\workers\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\workers\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\attendance\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\attendance\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.domain\\common\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|solutionrelative:src\\churchadmin.domain\\common\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\auditlogs\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\auditlogs\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\common\\validationproblemdetailsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\common\\validationproblemdetailsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\attendance\\attendanceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\attendance\\attendanceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\common\\authsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\common\\authsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\auditlogs\\pagedauditlogresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\auditlogs\\pagedauditlogresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\auditlogs\\auditlogsearchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\auditlogs\\auditlogsearchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\auditlogs\\auditlogresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\auditlogs\\auditlogresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\reports\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\reports\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\reports\\attendanceservicetypesummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\reports\\attendanceservicetypesummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\reports\\financecategorysummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\reports\\financecategorysummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\reports\\financetrendresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\reports\\financetrendresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\reports\\attendancetrendresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\reports\\attendancetrendresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\dashboard\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\dashboard\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\dashboard\\dashboardsummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\dashboard\\dashboardsummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\auth\\devloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\auth\\devloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\auth\\googleloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\auth\\googleloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\common\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\common\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\common\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\common\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.domain\\enums\\auditaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\ChurchAdmin.Domain\\ChurchAdmin.Domain.csproj|solutionrelative:src\\churchadmin.domain\\enums\\auditaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\teams\\teamresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\teams\\teamresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\finance\\createfinancecorrectionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\finance\\createfinancecorrectionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\finance\\updatefinanceentryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\finance\\updatefinanceentryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\finance\\createfinanceentryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\finance\\createfinanceentryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\inventory\\updateinventoryitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\inventory\\updateinventoryitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\inventory\\createinventoryitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\inventory\\createinventoryitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\workers\\assignworkerteamrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\workers\\assignworkerteamrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\workers\\updateworkerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\workers\\updateworkerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\workers\\createworkerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\workers\\createworkerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\attendance\\updateattendancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\attendance\\updateattendancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\attendance\\createattendancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\attendance\\createattendancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\teams\\updateteamrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\teams\\updateteamrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\teams\\createteamrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\teams\\createteamrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\churchadmin.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\churchadmin.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\finance\\financeentryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\finance\\financeentryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.infrastructure\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|solutionrelative:src\\churchadmin.infrastructure\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\finance\\financesummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\finance\\financesummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\inventory\\inventoryitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\inventory\\inventoryitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\attendance\\attendancesummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\attendance\\attendancesummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.api\\controllers\\workers\\workerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj|solutionrelative:src\\churchadmin.api\\controllers\\workers\\workerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.infrastructure\\migrations\\20260430072627_addchurchidtotenantdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|solutionrelative:src\\churchadmin.infrastructure\\migrations\\20260430072627_addchurchidtotenantdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|c:\\users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\churchadmin.infrastructure\\migrations\\20260430071626_addchurchbranding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj|solutionrelative:src\\churchadmin.infrastructure\\migrations\\20260430071626_addchurchbranding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260430075115_AddChurchTenantSupport.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260430075115_AddChurchTenantSupport.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Infrastructure\\Migrations\\20260430075115_AddChurchTenantSupport.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260430075115_AddChurchTenantSupport.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Infrastructure\\Migrations\\20260430075115_AddChurchTenantSupport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:51:15.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "20260430072627_AddChurchIdToTenantData.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260430072627_AddChurchIdToTenantData.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Infrastructure\\Migrations\\20260430072627_AddChurchIdToTenantData.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260430072627_AddChurchIdToTenantData.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Infrastructure\\Migrations\\20260430072627_AddChurchIdToTenantData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:26:27.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryItem.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\InventoryItem.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Domain\\Entities\\InventoryItem.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\InventoryItem.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Domain\\Entities\\InventoryItem.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:21:14.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FinanceEntry.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\FinanceEntry.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Domain\\Entities\\FinanceEntry.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\FinanceEntry.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Domain\\Entities\\FinanceEntry.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA/wBwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:20:55.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AttendanceRecord.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\AttendanceRecord.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Domain\\Entities\\AttendanceRecord.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\AttendanceRecord.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Domain\\Entities\\AttendanceRecord.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wBYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:20:41.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Auth\\AuthController.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\AuthController.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Auth\\AuthController.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAtwMMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:22:33.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Common\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\JwtTokenService.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Common\\JwtTokenService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:20:57.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Auth\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:32:01.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\Worker.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Domain\\Entities\\Worker.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\Worker.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Domain\\Entities\\Worker.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:20:28.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\Team.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Domain\\Entities\\Team.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\Team.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Domain\\Entities\\Team.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:20:18.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "20260430071626_AddChurchBranding.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260430071626_AddChurchBranding.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Infrastructure\\Migrations\\20260430071626_AddChurchBranding.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260430071626_AddChurchBranding.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Infrastructure\\Migrations\\20260430071626_AddChurchBranding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:16:26.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChurchAdminDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Persistence\\ChurchAdminDbContext.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Infrastructure\\Persistence\\ChurchAdminDbContext.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Persistence\\ChurchAdminDbContext.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Infrastructure\\Persistence\\ChurchAdminDbContext.cs",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAAwGUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:07:33.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChurchesController.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Churches\\ChurchesController.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Churches\\ChurchesController.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Churches\\ChurchesController.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Churches\\ChurchesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:15:15.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IChurchAdminDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Application\\Common\\Interfaces\\IChurchAdminDbContext.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Application\\Common\\Interfaces\\IChurchAdminDbContext.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Application\\Common\\Interfaces\\IChurchAdminDbContext.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Application\\Common\\Interfaces\\IChurchAdminDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:09:19.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Church.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\Church.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Domain\\Entities\\Church.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\Church.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Domain\\Entities\\Church.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:08:56.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvxwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:30:54.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20260429124548_InitialPostgres.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260429124548_InitialPostgres.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Infrastructure\\Migrations\\20260429124548_InitialPostgres.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260429124548_InitialPostgres.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Infrastructure\\Migrations\\20260429124548_InitialPostgres.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T12:45:48.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Program.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Program.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAewKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:14:17.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260429134517_InitialPostgres.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260429134517_InitialPostgres.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Infrastructure\\Migrations\\20260429134517_InitialPostgres.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Migrations\\20260429134517_InitialPostgres.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Infrastructure\\Migrations\\20260429134517_InitialPostgres.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAawPcAAADjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T13:45:17.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\appsettings.Development.json",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-29T11:14:08.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Auth\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\AuthResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Auth\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:21:39.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChurchAdmin.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj",
+              "RelativeToolTip": "src\\ChurchAdmin.Infrastructure\\ChurchAdmin.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-29T12:42:49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Common\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\EmailSettings.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Common\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:13:05.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FinanceController.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceController.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceController.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceController.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceController.cs",
+              "ViewState": "AgIAAD0BAAAAAAAAAAArwEsBAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:18:16.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IAuditService.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Application\\Common\\Interfaces\\IAuditService.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Application\\Common\\Interfaces\\IAuditService.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Application\\Common\\Interfaces\\IAuditService.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Application\\Common\\Interfaces\\IAuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:24:34.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Common\\AuditableEntity.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Domain\\Common\\AuditableEntity.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Common\\AuditableEntity.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Domain\\Common\\AuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:06:34.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Users\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Users\\UsersController.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Users\\UsersController.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Users\\UsersController.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAUwAcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:23:50.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:28:28.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\EmailService.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Common\\EmailService.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\EmailService.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Common\\EmailService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA0wDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:13:27.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Common\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\PasswordHasher.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Common\\PasswordHasher.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:31:27.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateUserRoleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Users\\UpdateUserRoleRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Users\\UpdateUserRoleRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Users\\UpdateUserRoleRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Users\\UpdateUserRoleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:23:12.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SetPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\SetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Auth\\SetPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\SetPasswordRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Auth\\SetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:32:19.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Users\\UserResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Users\\UserResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Users\\UserResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Users\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:23:34.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:12:45.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Users\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Users\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Users\\CreateUserRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Users\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:14:33.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Users\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Users\\UpdateUserRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Users\\UpdateUserRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Users\\UpdateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:15:21.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Inventory\\InventoryController.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Inventory\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Inventory\\InventoryController.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Inventory\\InventoryController.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAAnwDUBAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:12:54.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Teams\\TeamsController.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Teams\\TeamsController.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Teams\\TeamsController.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Teams\\TeamsController.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAArwMwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:45:10.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WorkersController.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Workers\\WorkersController.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Workers\\WorkersController.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Workers\\WorkersController.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Workers\\WorkersController.cs",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAnwF0BAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:01:40.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceController.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceController.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAnwAEBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:09:01.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ICurrentUserService.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Application\\Common\\Interfaces\\ICurrentUserService.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Application\\Common\\Interfaces\\ICurrentUserService.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Application\\Common\\Interfaces\\ICurrentUserService.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Application\\Common\\Interfaces\\ICurrentUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:16:43.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Reports\\ReportsController.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Reports\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Reports\\ReportsController.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Reports\\ReportsController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAmwMIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:44:32.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PagedAuditLogResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\PagedAuditLogResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\PagedAuditLogResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\PagedAuditLogResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\PagedAuditLogResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:49:45.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AuditLogSearchRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogSearchRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogSearchRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogSearchRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogSearchRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:49:23.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AuditLogsController.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogsController.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogsController.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogsController.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:30:39.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthSettings.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\AuthSettings.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Common\\AuthSettings.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\AuthSettings.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Common\\AuthSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:19:26.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AttendanceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceResponse.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA/wCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:08:15.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ValidationProblemDetailsFactory.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\ValidationProblemDetailsFactory.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Common\\ValidationProblemDetailsFactory.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\ValidationProblemDetailsFactory.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Common\\ValidationProblemDetailsFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:13:06.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AttendanceServiceTypeSummaryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Reports\\AttendanceServiceTypeSummaryResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Reports\\AttendanceServiceTypeSummaryResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Reports\\AttendanceServiceTypeSummaryResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Reports\\AttendanceServiceTypeSummaryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:44:13.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FinanceCategorySummaryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Reports\\FinanceCategorySummaryResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Reports\\FinanceCategorySummaryResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Reports\\FinanceCategorySummaryResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Reports\\FinanceCategorySummaryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:43:28.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FinanceTrendResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Reports\\FinanceTrendResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Reports\\FinanceTrendResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Reports\\FinanceTrendResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Reports\\FinanceTrendResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:43:16.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AttendanceTrendResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Reports\\AttendanceTrendResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Reports\\AttendanceTrendResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Reports\\AttendanceTrendResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Reports\\AttendanceTrendResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:42:59.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Dashboard\\DashboardController.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Dashboard\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Dashboard\\DashboardController.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Dashboard\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:38:02.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DashboardSummaryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Dashboard\\DashboardSummaryResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Dashboard\\DashboardSummaryResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Dashboard\\DashboardSummaryResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Dashboard\\DashboardSummaryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:37:16.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AuditLogResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\AuditLogs\\AuditLogResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:30:18.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DevLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\DevLoginRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Auth\\DevLoginRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\DevLoginRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Auth\\DevLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:22:15.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "GoogleLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\GoogleLoginRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Auth\\GoogleLoginRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Auth\\GoogleLoginRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Auth\\GoogleLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:22:02.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ICurrentUserService.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\Interfaces\\ICurrentUserService.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Common\\Interfaces\\ICurrentUserService.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\Interfaces\\ICurrentUserService.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Common\\Interfaces\\ICurrentUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:20:38.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CurrentUserService.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\CurrentUserService.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Common\\CurrentUserService.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Common\\CurrentUserService.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Common\\CurrentUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:19:55.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AuditAction.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Enums\\AuditAction.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Domain\\Enums\\AuditAction.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Domain\\Enums\\AuditAction.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Domain\\Enums\\AuditAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:06:20.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\appsettings.json",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-28T08:36:51.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CreateFinanceCorrectionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\CreateFinanceCorrectionRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Finance\\CreateFinanceCorrectionRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\CreateFinanceCorrectionRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Finance\\CreateFinanceCorrectionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:17:20.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UpdateFinanceEntryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\UpdateFinanceEntryRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Finance\\UpdateFinanceEntryRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\UpdateFinanceEntryRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Finance\\UpdateFinanceEntryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:16:55.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "TeamResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Teams\\TeamResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Teams\\TeamResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Teams\\TeamResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Teams\\TeamResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:44:31.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CreateFinanceEntryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\CreateFinanceEntryRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Finance\\CreateFinanceEntryRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\CreateFinanceEntryRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Finance\\CreateFinanceEntryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:16:28.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UpdateInventoryItemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Inventory\\UpdateInventoryItemRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Inventory\\UpdateInventoryItemRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Inventory\\UpdateInventoryItemRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Inventory\\UpdateInventoryItemRequest.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA0wDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:12:15.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "CreateInventoryItemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Inventory\\CreateInventoryItemRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Inventory\\CreateInventoryItemRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Inventory\\CreateInventoryItemRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Inventory\\CreateInventoryItemRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:11:54.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AssignWorkerTeamRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Workers\\AssignWorkerTeamRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Workers\\AssignWorkerTeamRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Workers\\AssignWorkerTeamRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Workers\\AssignWorkerTeamRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:00:00.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "UpdateWorkerRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Workers\\UpdateWorkerRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Workers\\UpdateWorkerRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Workers\\UpdateWorkerRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Workers\\UpdateWorkerRequest.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:59:28.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CreateWorkerRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Workers\\CreateWorkerRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Workers\\CreateWorkerRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Workers\\CreateWorkerRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Workers\\CreateWorkerRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:57:03.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "UpdateAttendanceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Attendance\\UpdateAttendanceRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Attendance\\UpdateAttendanceRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Attendance\\UpdateAttendanceRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Attendance\\UpdateAttendanceRequest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:07:55.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "CreateAttendanceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Attendance\\CreateAttendanceRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Attendance\\CreateAttendanceRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Attendance\\CreateAttendanceRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Attendance\\CreateAttendanceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:07:32.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "UpdateTeamRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Teams\\UpdateTeamRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Teams\\UpdateTeamRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Teams\\UpdateTeamRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Teams\\UpdateTeamRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:42:56.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CreateTeamRequest.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Teams\\CreateTeamRequest.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Teams\\CreateTeamRequest.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Teams\\CreateTeamRequest.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Teams\\CreateTeamRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:41:57.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ChurchAdmin.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\ChurchAdmin.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-28T10:11:36.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "AuditService.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Services\\AuditService.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Infrastructure\\Services\\AuditService.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Infrastructure\\Services\\AuditService.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Infrastructure\\Services\\AuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:26:16.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "FinanceSummaryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceSummaryResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceSummaryResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceSummaryResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceSummaryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:17:56.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "FinanceEntryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceEntryResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceEntryResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceEntryResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Finance\\FinanceEntryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:17:40.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "InventoryItemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Inventory\\InventoryItemResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Inventory\\InventoryItemResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Inventory\\InventoryItemResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Inventory\\InventoryItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:12:39.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "AttendanceSummaryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceSummaryResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceSummaryResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceSummaryResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Attendance\\AttendanceSummaryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:08:41.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "WorkerResponse.cs",
+              "DocumentMoniker": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Workers\\WorkerResponse.cs",
+              "RelativeDocumentMoniker": "src\\ChurchAdmin.Api\\Controllers\\Workers\\WorkerResponse.cs",
+              "ToolTip": "C:\\Users\\abel.ngaliema\\source\\repos\\church-admin-backend-starter\\src\\ChurchAdmin.Api\\Controllers\\Workers\\WorkerResponse.cs",
+              "RelativeToolTip": "src\\ChurchAdmin.Api\\Controllers\\Workers\\WorkerResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:00:23.062Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,71 +1,28 @@
-# Church Admin Backend Starter
+# Church Admin — Frontend
 
-Senior-level backend starter for the church admin app.
+React 18 + TypeScript + Vite
 
-## Architecture
+## Environment Variables
 
-```text
-ChurchAdmin.Api
-ChurchAdmin.Application
-ChurchAdmin.Domain
-ChurchAdmin.Infrastructure
-ChurchAdmin.Tests
-```
+| Variable | Description |
+|---|---|
+| `VITE_API_BASE_URL` | Backend API URL (e.g. `https://church-admin-api.onrender.com`) |
 
-## Requirements
-
-- .NET 9 SDK
-- SQL Server / SQL Server Express / LocalDB
-
-## Run
+## Local Development
 
 ```bash
-dotnet restore
-dotnet build
-dotnet run --project src/ChurchAdmin.Api
+npm install
+npm run dev
 ```
 
-Health check:
+## Deploy on Render (Static Site)
 
-```text
-https://localhost:xxxx/api/health
-```
+1. Create a **Static Site** on Render pointing to this repo
+2. Build command: `npm install && npm run build`
+3. Publish directory: `dist`
+4. Set `VITE_API_BASE_URL` to your backend URL
 
-Swagger:
+## Notes
 
-```text
-https://localhost:xxxx/swagger
-```
-
-## Database
-
-The API currently auto-applies EF migrations at startup.
-
-Next step:
-
-```bash
-dotnet ef migrations add InitialCreate --project src/ChurchAdmin.Infrastructure --startup-project src/ChurchAdmin.Api
-dotnet ef database update --project src/ChurchAdmin.Infrastructure --startup-project src/ChurchAdmin.Api
-```
-
-## Current coverage
-
-- Clean Architecture projects
-- Domain entities
-- Soft delete
-- Audit-ready base classes
-- EF Core DbContext
-- SQL Server provider
-- Team seed data
-- CORS for React local dev
-
-## Next build batch
-
-- TeamsController
-- AttendanceController
-- WorkersController
-- FinanceController
-- InventoryController
-- Validation layer
-- API DTOs
-- React API client replacement
+- The `public/_redirects` file handles SPA routing (all paths → `index.html`)
+- Church slug defaults to `laborne` — update `DEFAULT_CHURCH_SLUG` in `src/app/App.tsx` if needed
