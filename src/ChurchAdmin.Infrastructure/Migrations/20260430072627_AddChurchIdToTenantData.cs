@@ -70,8 +70,8 @@ namespace ChurchAdmin.Infrastructure.Migrations
                 defaultValue: new Guid("00000000-0000-0000-0000-000000000000"));
 
             migrationBuilder.Sql("""
-INSERT INTO "Churches" ("Id", "Name", "CreatedAt", "IsDeleted")
-VALUES ('30000000-0000-0000-0000-000000000001', 'La Borne Church', NOW(), false)
+INSERT INTO "Churches" ("Id", "Name", "Slug", "CreatedAt", "IsDeleted")
+VALUES ('30000000-0000-0000-0000-000000000001', 'La Borne Church', 'la-borne-church', NOW(), false)
 ON CONFLICT ("Id") DO NOTHING;
 """);
 
