@@ -167,9 +167,5 @@ using (IServiceScope scope = app.Services.CreateScope())
 
     dbContext.Database.Migrate();
 }
-app.MapGet("/dev/hash/{password}", (string password) =>
-{
-    var hasher = new PasswordHasher();
-    return hasher.HashPassword(password);
-});
+
 app.Run();

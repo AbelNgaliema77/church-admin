@@ -18,6 +18,7 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
         _currentUserService = currentUserService;
     }
 
+    public DbSet<Church> Churches => Set<Church>();
     public DbSet<User> Users => Set<User>();
     public DbSet<Team> Teams => Set<Team>();
     public DbSet<Worker> Workers => Set<Worker>();
@@ -30,6 +31,22 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         ConfigureCommonColumns(modelBuilder);
+
+        modelBuilder.Entity<Church>(entity =>
+        {
+            entity.HasIndex(x => x.Slug)
+                .IsUnique()
+                .HasFilter("\"IsDeleted\" = false");
+
+            entity.Property(x => x.Name).HasMaxLength(200).IsRequired();
+            entity.Property(x => x.Slug).HasMaxLength(100).IsRequired();
+            entity.Property(x => x.LogoUrl).HasMaxLength(1000);
+            entity.Property(x => x.PrimaryColor).HasMaxLength(20).IsRequired();
+            entity.Property(x => x.SecondaryColor).HasMaxLength(20).IsRequired();
+            entity.Property(x => x.WelcomeText).HasMaxLength(500);
+
+            entity.HasQueryFilter(x => !x.IsDeleted);
+        });
 
         modelBuilder.Entity<User>(entity =>
         {
@@ -199,6 +216,10 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
 
     private static void SeedData(ModelBuilder modelBuilder)
     {
+        byte[] seedRowVersion = [1];
+
+        Guid laborneChurchId = Guid.Parse("30000000-0000-0000-0000-000000000001");
+
         Guid worshipTeamId = Guid.Parse("10000000-0000-0000-0000-000000000001");
         Guid mediaTeamId = Guid.Parse("10000000-0000-0000-0000-000000000002");
         Guid childrenTeamId = Guid.Parse("10000000-0000-0000-0000-000000000003");
@@ -207,7 +228,23 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
 
         Guid adminUserId = Guid.Parse("20000000-0000-0000-0000-000000000001");
 
-        byte[] seedRowVersion = [1];
+        modelBuilder.Entity<Church>().HasData(
+            new Church
+            {
+                Id = laborneChurchId,
+                Name = "La Borne Church Cape Durbanville",
+                Slug = "laborne",
+                LogoUrl = null,
+                PrimaryColor = "#111827",
+                SecondaryColor = "#F9FAFB",
+                WelcomeText = "Welcome to La Borne Church Admin",
+                IsActive = true,
+                CreatedAt = DateTimeOffset.UnixEpoch,
+                CreatedBy = "seed",
+                IsDeleted = false,
+                RowVersion = seedRowVersion
+            }
+        );
 
         modelBuilder.Entity<Team>().HasData(
             new Team

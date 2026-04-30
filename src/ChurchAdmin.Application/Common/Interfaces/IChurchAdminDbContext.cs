@@ -20,6 +20,7 @@ public interface IChurchAdminDbContext
     DbSet<InventoryItem> InventoryItems { get; }
 
     DbSet<AuditLog> AuditLogs { get; }
+    DbSet<Church> Churches { get; }
 
     Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 }

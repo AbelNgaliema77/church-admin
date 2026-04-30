@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChurchAdmin.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fb09b8fb41b2e93ef18aca2f18bb92936f513ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+675bba3a768152fef0f39d411c418f5c1be8946d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChurchAdmin.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChurchAdmin.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
