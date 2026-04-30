@@ -22,4 +22,6 @@ public sealed class Worker : SoftDeletableEntity
     public WorkerStatus Status { get; set; } = WorkerStatus.Active;
 
     public ICollection<WorkerTeam> WorkerTeams { get; set; } = [];
+    public Guid ChurchId { get; set; }
+    public Church Church { get; set; } = null!;
 }

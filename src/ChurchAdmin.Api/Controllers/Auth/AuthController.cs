@@ -56,7 +56,11 @@ public sealed class AuthController : ControllerBase
 
         string email = request.Email.Trim().ToLowerInvariant();
 
-        User? user = await _db.Users.FirstOrDefaultAsync(x => x.Email == email);
+            User? user = await _db.Users
+         .Include(x => x.Church)
+         .FirstOrDefaultAsync(x =>
+             x.Email == email &&
+             x.Church.Slug == request.ChurchSlug);
 
         if (user is null || string.IsNullOrWhiteSpace(user.PasswordHash))
         {

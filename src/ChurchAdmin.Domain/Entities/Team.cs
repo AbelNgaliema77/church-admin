@@ -11,4 +11,6 @@ public sealed class Team : SoftDeletableEntity
     public bool IsActive { get; set; } = true;
 
     public ICollection<WorkerTeam> WorkerTeams { get; set; } = [];
+    public Guid ChurchId { get; set; }
+    public Church Church { get; set; } = null!;
 }

@@ -26,4 +26,6 @@ public sealed class User : SoftDeletableEntity
     public UserRole Role { get; set; } = UserRole.Pending;
 
     public bool IsActive { get; set; } = true;
+    public Guid ChurchId { get; set; }
+    public Church Church { get; set; } = null!;
 }

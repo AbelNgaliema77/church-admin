@@ -20,4 +20,6 @@ public sealed class AttendanceRecord : SoftDeletableEntity
     public string? Notes { get; set; }
 
     public int Total => Men + Women + Children + Visitors;
+    public Guid ChurchId { get; set; }
+    public Church Church { get; set; } = null!;
 }

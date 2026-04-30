@@ -50,7 +50,7 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasIndex(x => x.Email)
+            entity.HasIndex(x => new { x.ChurchId, x.Email })
                 .IsUnique()
                 .HasFilter("\"IsDeleted\" = false");
 
@@ -59,24 +59,34 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
             entity.Property(x => x.ExternalProvider).HasMaxLength(50);
             entity.Property(x => x.ExternalProviderUserId).HasMaxLength(256);
 
+            entity.HasOne(x => x.Church)
+                .WithMany()
+                .HasForeignKey(x => x.ChurchId)
+                .OnDelete(DeleteBehavior.Restrict);
+
             entity.HasQueryFilter(x => !x.IsDeleted);
         });
 
         modelBuilder.Entity<Team>(entity =>
         {
-            entity.HasIndex(x => x.Name)
+            entity.HasIndex(x => new { x.ChurchId, x.Name })
                 .IsUnique()
                 .HasFilter("\"IsDeleted\" = false");
 
             entity.Property(x => x.Name).HasMaxLength(120).IsRequired();
             entity.Property(x => x.Description).HasMaxLength(500);
 
+            entity.HasOne(x => x.Church)
+                .WithMany()
+                .HasForeignKey(x => x.ChurchId)
+                .OnDelete(DeleteBehavior.Restrict);
+
             entity.HasQueryFilter(x => !x.IsDeleted);
         });
 
         modelBuilder.Entity<Worker>(entity =>
         {
-            entity.HasIndex(x => x.Email)
+            entity.HasIndex(x => new { x.ChurchId, x.Email })
                 .IsUnique()
                 .HasFilter("\"IsDeleted\" = false");
 
@@ -84,6 +94,11 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
             entity.Property(x => x.Email).HasMaxLength(256).IsRequired();
             entity.Property(x => x.Phone).HasMaxLength(50).IsRequired();
             entity.Property(x => x.Address).HasMaxLength(500).IsRequired();
+
+            entity.HasOne(x => x.Church)
+                .WithMany()
+                .HasForeignKey(x => x.ChurchId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             entity.HasQueryFilter(x => !x.IsDeleted);
         });
@@ -105,11 +120,16 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
 
         modelBuilder.Entity<AttendanceRecord>(entity =>
         {
-            entity.HasIndex(x => new { x.ServiceDate, x.ServiceType })
+            entity.HasIndex(x => new { x.ChurchId, x.ServiceDate, x.ServiceType })
                 .IsUnique()
                 .HasFilter("\"IsDeleted\" = false");
 
             entity.Property(x => x.Notes).HasMaxLength(1000);
+
+            entity.HasOne(x => x.Church)
+                .WithMany()
+                .HasForeignKey(x => x.ChurchId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             entity.HasQueryFilter(x => !x.IsDeleted);
         });
@@ -119,6 +139,11 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
             entity.Property(x => x.Amount).HasPrecision(18, 2);
             entity.Property(x => x.Notes).HasMaxLength(1000);
             entity.Property(x => x.VerifiedBy).HasMaxLength(256);
+
+            entity.HasOne(x => x.Church)
+                .WithMany()
+                .HasForeignKey(x => x.ChurchId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             entity.HasOne(x => x.CorrectionOfFinanceEntry)
                 .WithMany()
@@ -133,6 +158,11 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
             entity.Property(x => x.Name).HasMaxLength(160).IsRequired();
             entity.Property(x => x.Description).HasMaxLength(1000).IsRequired();
             entity.Property(x => x.ImageUrl).HasMaxLength(1000);
+
+            entity.HasOne(x => x.Church)
+                .WithMany()
+                .HasForeignKey(x => x.ChurchId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             entity.HasOne(x => x.Team)
                 .WithMany()
@@ -250,6 +280,7 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
             new Team
             {
                 Id = worshipTeamId,
+                ChurchId = laborneChurchId,
                 Name = "Worship",
                 Description = "Music and praise team",
                 IsActive = true,
@@ -261,6 +292,7 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
             new Team
             {
                 Id = mediaTeamId,
+                ChurchId = laborneChurchId,
                 Name = "Media",
                 Description = "Sound, camera and livestream",
                 IsActive = true,
@@ -272,6 +304,7 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
             new Team
             {
                 Id = childrenTeamId,
+                ChurchId = laborneChurchId,
                 Name = "Children",
                 Description = "Children ministry",
                 IsActive = true,
@@ -283,6 +316,7 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
             new Team
             {
                 Id = usheringTeamId,
+                ChurchId = laborneChurchId,
                 Name = "Ushering",
                 Description = "Welcoming and seating",
                 IsActive = true,
@@ -294,6 +328,7 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
             new Team
             {
                 Id = financeTeamId,
+                ChurchId = laborneChurchId,
                 Name = "Finance",
                 Description = "Finance and treasury",
                 IsActive = true,
@@ -308,6 +343,7 @@ public sealed class ChurchAdminDbContext : DbContext, IChurchAdminDbContext
             new User
             {
                 Id = adminUserId,
+                ChurchId = laborneChurchId,
                 Email = "admin@church.local",
                 DisplayName = "Church Admin",
                 Role = UserRole.Admin,

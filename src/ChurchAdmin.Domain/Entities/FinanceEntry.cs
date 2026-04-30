@@ -26,4 +26,6 @@ public sealed class FinanceEntry : SoftDeletableEntity
     public FinanceEntry? CorrectionOfFinanceEntry { get; set; }
 
     public string? Notes { get; set; }
+    public Guid ChurchId { get; set; }
+    public Church Church { get; set; } = null!;
 }

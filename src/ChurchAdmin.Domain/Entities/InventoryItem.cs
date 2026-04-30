@@ -20,4 +20,6 @@ public sealed class InventoryItem : SoftDeletableEntity
     public InventoryStatus Status { get; set; } = InventoryStatus.PendingApproval;
 
     public string? ImageUrl { get; set; }
+    public Guid ChurchId { get; set; }
+    public Church Church { get; set; } = null!;
 }

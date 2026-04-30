@@ -35,7 +35,10 @@ public sealed class JwtTokenService
             new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
             new Claim(ClaimTypes.Email, user.Email),
             new Claim(ClaimTypes.Name, user.DisplayName),
-            new Claim(ClaimTypes.Role, user.Role.ToString())
+            new Claim(ClaimTypes.Role, user.Role.ToString()),
+            new Claim("churchId", user.ChurchId.ToString()),
+            new Claim("churchSlug", user.Church?.Slug ?? string.Empty),
+            new Claim("churchName", user.Church?.Name ?? string.Empty)
         ];
 
         JwtSecurityToken token = new JwtSecurityToken(
