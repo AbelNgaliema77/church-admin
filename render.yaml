@@ -1,16 +1,39 @@
 services:
   - type: web
-    name: church-admin-frontend
-    runtime: static
-    buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
-    headers:
-      - path: /*
-        name: X-Frame-Options
-        value: DENY
-      - path: /*
-        name: X-Content-Type-Options
-        value: nosniff
+    name: church-admin-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
     envVars:
-      - key: VITE_API_BASE_URL
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ConnectionStrings__DefaultConnection
         sync: false
+      - key: Auth__JwtKey
+        generateValue: true
+      - key: Auth__Issuer
+        value: ChurchAdmin.Api
+      - key: Auth__Audience
+        value: ChurchAdmin.App
+      - key: Auth__ExpiryMinutes
+        value: "480"
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: Frontend__BaseUrl
+        sync: false
+      - key: Frontend__ProductName
+        value: Church Admin
+      - key: RUN_MIGRATIONS
+        value: "true"
+      - key: EmailSettings__Host
+        sync: false
+      - key: EmailSettings__Port
+        value: "587"
+      - key: EmailSettings__Username
+        sync: false
+      - key: EmailSettings__Password
+        sync: false
+      - key: EmailSettings__FromEmail
+        sync: false
+      - key: EmailSettings__FromName
+        value: Church Admin
